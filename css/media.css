@@ -1,0 +1,350 @@
+@media screen and (max-width: 1124px){
+  .header-link{
+    display: none;
+  }
+  .header-link-2{
+    display: none;
+  }
+  .line{
+    display: unset;
+  }
+  nav{
+    position: fixed;
+    top: 0;
+    justify-content:space-around;
+  }
+  .header-icon{
+    padding-right: 100px;
+  }
+  .header-logo{
+    padding-left: 100px;
+  }
+  @keyframes tran{
+    0%{
+        position: absolute;
+        left: 100px;
+    }
+    20%{
+        position: absolute;
+        left: 100px;
+    }
+    30%{
+        position: absolute;
+        left: 450px;
+    }
+    40%{
+        position: absolute;
+        left: 450px;
+    }
+    60%{
+        position: absolute;
+        left: 100px;
+    }
+    80%{
+        position: absolute;
+        left: 450px;
+    }
+    100%{
+        position: absolute;
+        left: 100px;
+    }
+}
+
+  .image_smal_size{
+    display: none;
+  }
+  .image_smal_size img{
+
+    height: 600px;
+    width: 100%;
+  }
+  .footer_full_con{
+    gap: 20px;
+  }
+  .video{
+    width: 450px;
+    height: 450px;
+  }
+  .video video{
+    width: 450px;
+    height: 450px;
+  }
+  .video_content{
+    width: 450px;
+    height: 450px;
+    padding: 5px 10px;
+  }
+  .full-container{
+    display: none;
+  }
+  .full-container-hidden{
+    display: unset;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 50px;
+  }
+  .footer_full_con{
+    gap: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+} 
+
+
+/* tablet mode */
+
+@media screen and (max-width: 768px) {
+    .header-link{
+    display: none;
+  }
+  .header-link-2{
+    display: none;
+  }
+  .line{
+    display: unset;
+  }
+  nav{
+    position: fixed;
+    top: 0;
+    justify-content:space-around;
+  }
+  .header-icon{
+    padding-right: 100px;
+  }
+  .header-logo{
+    padding-left: 100px;
+  }
+  .image_swip{
+    height: 500px;
+  }
+  .conten_letter1{
+    width: 420px;
+    top: 50px;
+    top: 300px;
+  }
+  .conten_letter1 h2{
+    font-size:15px;
+  }
+  .conten_letter1 h1{
+    font-size:18px;
+  }
+  .conten_letter1 button{
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+  }
+  @keyframes tran{
+    0%{
+        position: absolute;
+        left: 30px;
+    }
+    20%{
+        position: absolute;
+        left: 30px;
+    }
+    30%{
+        position: absolute;
+        left: 300px;
+    }
+    40%{
+        position: absolute;
+        left: 300px;
+    }
+    60%{
+        position: absolute;
+        left: 30px;
+    }
+    80%{
+        position: absolute;
+        left: 300px;
+    }
+    100%{
+        position: absolute;
+        left: 30px;
+    }
+}
+  .footer_full_con{
+    gap: 20px;
+  }
+  .video{
+    width: 350px;
+    height: 350px;
+  }
+  .video video{
+    width: 350px;
+    height: 350px;
+  }
+  .video_content{
+    width: 350px;
+    height: 350px;
+    padding: 5px 10px;
+  }
+  .video_div{
+    margin-top: 0px;
+  }
+  .video_content h1{
+    font-size: 25px;
+  }
+  .video_content h2{
+    font-size: 15px;
+  }
+  .full-container{
+    display: none;
+  }
+  .full-container-hidden{
+    display: unset;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 10px;
+  }
+  .full-container-hidden-mobile{
+    display: none;
+  }
+  .footer_full_con{
+    gap: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+    .start-here-section {
+      grid-template-columns: repeat(3, 1fr);
+      width: 100%;
+      padding: 0 10px;
+    }
+  }
+  .start-here-category-text{ 
+    font-size: 9px;
+    font-weight: 500; 
+    line-height: normal; 
+    letter-spacing: 1.5px; 
+    text-transform: uppercase; 
+    color: #444; 
+    text-align: center;
+  }
+  #SH-C-O:hover, #SH-CS-O:hover, #SH-DB-O:hover, 
+  #SH-PB-O:hover, #SH-SP-O:hover, #SH-ST-O:hover, 
+  #SH-G-O:hover, #SH-DAP-O:hover, #SH-PAD-O:hover, 
+  #SH-ET-O:hover, #SH-FH-O:hover, #SH-FIEM-O:hover, 
+  #SH-DAD-O:hover, #SH-BH-O:hover, #SH-IEM-O:hover, 
+  #SH-TWS-O:hover, #SH-WH-O:hover, #SH-WFH-O:hover {
+    opacity: 1;
+    transition: opacity .3s ease;
+  }
+
+
+@media screen and (max-width: 480px){
+.image_swip{
+    animation-name: trancemobile;
+    height: 600px;
+    width: 100%;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;  
+}
+@keyframes trancemobile{
+    0%{
+        background: url(/asserts/img/mobile/Headphone-Zone-Campfire-Audio-Alien-brain-Mobile-Homepage-Banner-01.webp);
+        background-position:center;
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+    }
+    20%{
+        background-image: url(/asserts/img/mobile/HEADPHONE-ZONE-Euforia_EVO-HOME-PAGE-BANNER-MOBLE.webp);
+        background-position:center;
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+    }
+    40%{
+        background-image: url(/asserts/img/mobile/Headphone-Zone-iFi_Audio-ZEN_DAC-B-Stock-Homepage-Banner-Mobile-01.webp);
+        background-position:center;
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+    }
+    60%{
+        background-image: url(/asserts/img/mobile/Headphone-zone-Kotori_Audio-Vampire-home-page-banner-mobile.webp);
+        background-position:center;
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+    }
+    80%{
+        background-image: url(/asserts/img/mobile/Headphone-Zone-Tangzu-Wan_er-S.G-2-home-page-banner-mobile.webp);
+        background-position:center;
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+    }
+    100%{
+        background-image: url(/asserts/img/mobile/Headphone-Zone-Campfire-Audio-Alien-brain-Mobile-Homepage-Banner-01.webp);
+        background-position:center;
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+    
+    }
+}
+  .conten_letter1{
+    position: absolute;
+    top: 0;
+    width: 420px;
+    height: 400px;
+    top: 200px;
+    left: 20px;
+    animation: none
+  }
+  .conten_letter1 h2{
+    font-size:25px;
+  }
+  .conten_letter1 h1{
+    font-size:30px;
+  }
+  .conten_letter1 button{
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+  }
+  .video_div{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .video video{
+    margin: 0;
+    width: 400px;
+    height: 400px;
+  }
+  .video_content{
+    width: 390px;
+    height: 400px;
+    padding: 5px 10px;
+    margin-top: 50px;
+  }
+    .video_content h1{
+    font-size: 35px;
+  }
+  .video_content h2{
+    font-size: 25px;
+  }
+  .full-container-hidden{
+    display: none;
+  }
+  .full-container-hidden-mobile{
+    display: unset;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 20px;
+    gap: 10px;
+  }
+  .footer_full_con h3{
+    font-size: 12px;
+  }
+   .footer_full_con p{
+    font-size: 12px;
+  }
+
+}
+
